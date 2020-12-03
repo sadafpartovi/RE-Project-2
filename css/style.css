@@ -1,0 +1,504 @@
+* {
+    box-sizing: border-box;
+
+    /* TOP PAGE */
+}
+
+body {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+   
+
+}
+header {
+    margin-top: 0;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    
+
+}
+.element-top {
+    background-color: #F5F5F5;
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+.primary-content {
+    padding: 35px;
+    font-size: 18px;
+
+    
+
+}
+
+
+p{
+    color: darkgray;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 20px;
+    
+
+
+}	
+  
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color:black;
+
+}
+
+
+.main-nav {
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding: 0;
+   
+
+}
+.top-list {
+  list-style-type: none;
+  color: black;
+  background-color: white;
+  margin: 8px auto;
+  padding: 10px;
+  font-weight: bold;
+  
+}
+
+main {
+    text-align: center;
+    
+}
+img {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   display: block;
+   width: 95%;
+  
+   
+}
+.main-img {
+    width: 70%; 
+
+}
+
+/* Middle Section */
+
+.portfolio {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 45px;
+    padding-bottom: 30px;;
+}
+
+
+h4 {
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 25px;
+    padding-bottom: 0;
+    color: darkslategray;
+
+}
+
+
+.secondary-content {
+   width: 97%;
+    margin: 0 auto; 
+}
+
+/* footer */
+
+footer {
+    background-color: #F5F5F5;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+
+}
+
+h6 {
+    margin-top: 10px;
+    padding-top: 20px;
+
+}
+
+.contact {
+    margin-bottom: 0;
+
+}
+
+.email {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.info {
+    line-height: .2px;
+
+}
+.bottom-list {
+    background: none;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 30px;
+    padding: 0;
+    color: darkslategray;
+    display: flex;
+    
+    
+  
+}
+
+
+
+.name {
+    float: left;
+    font-weight: bold;
+    
+   
+   
+   
+}
+
+.back {
+    float: right;
+    font-weight: bold;
+    margin-left: auto;  
+}
+
+.contact-class {
+    font-weight: lighter;
+}
+
+.bottom-nav {
+    display: none;
+
+}
+
+hr {
+ 
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 0;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-style: inset;
+        border-width: 1px;
+        align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+   
+    /* TOP PAGE */
+   
+
+   .title-name {
+    display: block;
+    
+
+   }
+
+  .main-nav li {
+    display: inline-block;
+    margin: 15px;
+    background: none;
+  }
+
+  .main-nav {
+    display: inline-block;
+    background: none;
+
+}
+
+   .element-top,
+   .primary-element {
+    background-color: #F5F5F5;
+    background: none;
+
+   }
+
+   
+
+   
+
+
+    .main-img {
+        width: 40%;
+        float: right;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    
+
+    p {
+       
+        padding: 55px;
+        text-align: left;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .primary-content {
+        text-align: left;
+        line-height: 20px;
+        margin-top: 10px;
+        padding-top: 25px;
+        
+    }
+
+    
+    
+    .clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+    }
+    
+    /* middle section */
+
+    .left {
+        float: left;
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+
+    }
+
+    .right {
+        float: right;
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+
+    }
+
+
+    /* footer section */
+
+    footer {
+        background-color: #F5F5F5;
+        background-size: cover;
+        width: 100%;
+
+        margin: 0 auto;
+        padding: 30px;
+    
+    }
+    
+    h6 {
+        margin-top: 10px;
+        padding-top: 20px;
+    
+    }
+    
+    .contact {
+        margin-bottom: 0;
+    
+    }
+    
+    .email {
+        margin-bottom: 40px;
+    }
+    
+    .info {
+        line-height: .2px;
+        display: block;
+        text-align: center;
+    }
+
+    .phone {
+        padding-top: 0;
+    }
+
+
+
+    .email {
+        padding-top: 5px;
+        
+
+    }
+
+
+    .bottom-list {
+        background: none;
+        list-style-type: none;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 25px;
+        color: darkslategray;
+        display: inline-block;
+        float: left;
+        
+      
+    }
+    
+    
+    
+    .name {
+        float: left;
+        font-weight: bold;
+        display: inline-block;
+       
+       
+       
+    }
+    
+    .back {
+        float: right;
+        font-weight: bold;  
+        display: none;
+    }
+    
+    .contact-class {
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    .bottom-nav li {
+        display: inline-block;
+        padding: 10px;
+        float: right;
+        margin-left: 25px;
+        right: 25px;
+        
+        
+
+    }
+
+    .bottom-nav {
+        display: inline-block;
+        margin-top: 0;
+        padding: 10px;
+        float: right;
+        margin-left: 25px;
+        right: 25px;
+        font-weight: bold;
+        font-size: 12px;
+        
+        
+
+    }
+    
+    hr {
+     
+            display: block;
+            margin-top: 1em;
+           
+            margin-bottom: 0;
+            margin-left: 25px;
+            margin-right: 25px;
+            border-style: inset;
+            border-width: 1px;
+            align-items: center;
+    
+    }
+
+    .secondary-content,
+    .right,
+    .left {
+        height: 400px;
+
+    }
+    
+    
+
+}
+
+
+@media (min-width: 1024px) {
+ 
+    
+
+
+
+   
+.element-top,
+.primary-element {
+    width: 100%;
+    
+
+}
+
+
+
+   .title-name {
+    display: inline-block;
+    float: left;
+    padding-left: 45px;
+
+}
+
+  .main-nav li {
+    display: inline-block;
+    margin: 15px;
+  }
+
+  .main-nav {
+    display: inline-block;
+    background: none;
+    float: right;
+
+}
+    
+
+        /* Middle PAGE */
+
+    .left-again {
+        float: left;
+        width: 33.3%;
+
+
+    }
+
+    .right-again {
+
+        float: right;
+        width: 33.3%;
+    }
+
+    .center {
+        width: 33.3%;
+
+    }
+
+    footer {
+        width: 100%;
+        margin: 0 auto;
+        
+
+    }
+
+    .secondary-content,
+    .right,
+    .left {
+        height: 450px;
+
+    }
+
+}
